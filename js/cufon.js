@@ -1378,7 +1378,7 @@ Cufon.registerEngine('canvas', (function() {
 
 		if (HAS_INLINE_BLOCK) {
 			wStyle.width = wrapperWidth;
-			wStyle.height = size.convert(font.height) + 'px';
+			wStyle.height = size.convert(font.height) - 5 + 'px';
 		}
 		else {
 			wStyle.paddingLeft = wrapperWidth;
